@@ -15,6 +15,7 @@
 		6B00649F1E8245B10056D5A6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B00649E1E8245B10056D5A6 /* ViewController.xib */; };
 		6B0064A41E82464C0056D5A6 /* KPDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0064A31E82464C0056D5A6 /* KPDropMenu.m */; };
 		6B8531E21E862BD700955231 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B8531E11E862BD700955231 /* demo.gif */; };
+		6B8532071E86351B00955231 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B8532061E86351B00955231 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6B0064A21E82464C0056D5A6 /* KPDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPDropMenu.h; sourceTree = "<group>"; };
 		6B0064A31E82464C0056D5A6 /* KPDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPDropMenu.m; sourceTree = "<group>"; };
 		6B8531E11E862BD700955231 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		6B8532061E86351B00955231 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		6B00647B1E8245990056D5A6 = {
 			isa = PBXGroup;
 			children = (
+				6B8532061E86351B00955231 /* README.md */,
 				6B0064861E8245990056D5A6 /* KPDropMenu */,
 				6B0064851E8245990056D5A6 /* Products */,
 			);
@@ -178,6 +181,7 @@
 			files = (
 				6B0064A41E82464C0056D5A6 /* KPDropMenu.m in Sources */,
 				6B00648F1E8245990056D5A6 /* ViewController.m in Sources */,
+				6B8532071E86351B00955231 /* README.md in Sources */,
 				6B00648C1E8245990056D5A6 /* AppDelegate.m in Sources */,
 				6B0064891E8245990056D5A6 /* main.m in Sources */,
 			);
