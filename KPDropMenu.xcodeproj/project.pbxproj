@@ -18,6 +18,7 @@
 		6B8532071E86351B00955231 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B8532061E86351B00955231 /* README.md */; };
 		6B85320A1E86404700955231 /* img_AttributeInspector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8532081E86404700955231 /* img_AttributeInspector.png */; };
 		6B85320B1E86404700955231 /* img_IdentityInspector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8532091E86404700955231 /* img_IdentityInspector.png */; };
+		6B85320D1E8648F600955231 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 6B85320C1E8648F600955231 /* LICENCE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6B8532061E86351B00955231 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B8532081E86404700955231 /* img_AttributeInspector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_AttributeInspector.png; sourceTree = "<group>"; };
 		6B8532091E86404700955231 /* img_IdentityInspector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_IdentityInspector.png; sourceTree = "<group>"; };
+		6B85320C1E8648F600955231 /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		6B00647B1E8245990056D5A6 = {
 			isa = PBXGroup;
 			children = (
+				6B85320C1E8648F600955231 /* LICENCE */,
 				6B8532061E86351B00955231 /* README.md */,
 				6B0064861E8245990056D5A6 /* KPDropMenu */,
 				6B0064851E8245990056D5A6 /* Products */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B0064971E8245990056D5A6 /* LaunchScreen.storyboard in Resources */,
+				6B85320D1E8648F600955231 /* LICENCE in Resources */,
 				6B00649F1E8245B10056D5A6 /* ViewController.xib in Resources */,
 				6B8531E21E862BD700955231 /* demo.gif in Resources */,
 				6B85320B1E86404700955231 /* img_IdentityInspector.png in Resources */,

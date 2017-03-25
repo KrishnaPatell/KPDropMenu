@@ -12,9 +12,8 @@
 
 @protocol KPDropMenuDelegate
 
--(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIntedex;
-
 @optional
+-(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIntedex;
 -(void)didShow : (KPDropMenu *)dropMenu;
 -(void)didHide : (KPDropMenu *)dropMenu;
 

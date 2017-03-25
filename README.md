@@ -13,6 +13,7 @@ Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 
 #### 1. Through interface builder :
 * Add UIView in interface builder and change its class from UIView to KPDropMenu
+
 ![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_IdentityInspector.png)
 
 * Customize Properties with the help of attribute inspector
@@ -31,3 +32,20 @@ dropNew.titleTextAlignment = NSTextAlignmentCenter;
 dropNew.DirectionDown = NO;
 [self.view addSubview:dropNew];
 ```
+
+#### Delegate Methods
+To Use delegate methods, implement `KPDropMenuDelegate` protocol. All these 3 methods are `optional`.
+
+``` 
+-(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIntedex;
+-(void)didShow : (KPDropMenu *)dropMenu;
+-(void)didHide : (KPDropMenu *)dropMenu;
+
+## Requirements
+iOS 7.0 and later
+
+## Licence
+MIT Licence
+
+
+
