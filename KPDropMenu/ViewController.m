@@ -24,10 +24,7 @@
     _drop.titleTextAlignment = NSTextAlignmentCenter;
     _drop.delegate = self;
     
-    
-    
-    
-    
+    /* Adding Menu Programatically*/
     KPDropMenu *dropNew = [[KPDropMenu alloc] initWithFrame:CGRectMake(8, 250, 150, 50)];
     dropNew.delegate = self;
     dropNew.items = @[@"Apple", @"Grapes", @"Cherry", @"Pineapple", @"Mango", @"Orange"];
