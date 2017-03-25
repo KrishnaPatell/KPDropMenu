@@ -5,6 +5,11 @@ KPDropMenu is an Objective-C port of [HADropDown](https://github.com/Hassan-Afta
 ![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/demo.gif)
 
 ### Installation
-Simply Include KPdropMenu.h and KPDropMenu.m file into your project directory.
+Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 
 ### Usage
+
+#### 1. Through interface builder :
+___
+
+* Add UIView in interface builder and change its class from UIView to KPDropMenu
