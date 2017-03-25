@@ -13,14 +13,14 @@ Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 
 #### 1. Through interface builder :
 * Add UIView in interface builder and change its class from UIView to KPDropMenu
-![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_IdentityInspecture.png)
+![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_IdentityInspector.png)
 
-* Customize Properties with the help of attribute inspecture
-![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_AttributeInspecture.png)
+* Customize Properties with the help of attribute inspector
+![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_AttributeInspector.png)
 
 #### 2. Via code
 
-```
+'''
 KPDropMenu *dropNew = [[KPDropMenu alloc] initWithFrame:CGRectMake(8, 250, 150, 50)];
 dropNew.delegate = self;
 dropNew.items = @[@"Apple", @"Grapes", @"Cherry", @"Pineapple", @"Mango", @"Orange"];
@@ -29,4 +29,4 @@ dropNew.itemsFont = [UIFont fontWithName:@"Helvetica-Regular" size:12.0];
 dropNew.titleTextAlignment = NSTextAlignmentCenter;
 dropNew.DirectionDown = NO;
 [self.view addSubview:dropNew];
-```
+'''
