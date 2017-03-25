@@ -16,6 +16,7 @@ Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 ![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_IdentityInspector.png)
 
 * Customize Properties with the help of attribute inspector
+
 ![](https://github.com/KrishnaPatell/KPDropMenu/blob/master/KPDropMenu/img_AttributeInspector.png)
 
 #### 2. Via code
