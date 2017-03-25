@@ -36,10 +36,11 @@ dropNew.DirectionDown = NO;
 #### Delegate Methods
 To Use delegate methods, implement `KPDropMenuDelegate` protocol. All these 3 methods are `optional`.
 
-``` 
+```sh
 -(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIntedex;
 -(void)didShow : (KPDropMenu *)dropMenu;
 -(void)didHide : (KPDropMenu *)dropMenu;
+```
 
 ## Requirements
 iOS 7.0 and later
