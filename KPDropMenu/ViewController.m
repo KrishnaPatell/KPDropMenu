@@ -35,10 +35,8 @@
     [self.view addSubview:dropNew];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - KPDropMenu Delegate Methods
