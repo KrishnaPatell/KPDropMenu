@@ -10,6 +10,6 @@ Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 ### Usage
 
 #### 1. Through interface builder :
-___
+_____
 
 * Add UIView in interface builder and change its class from UIView to KPDropMenu
