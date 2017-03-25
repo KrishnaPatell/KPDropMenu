@@ -20,7 +20,7 @@ Simply include KPDropMenu.h and KPDropMenu.m file into your project directory.
 
 #### 2. Via code
 
-'''
+```sh
 KPDropMenu *dropNew = [[KPDropMenu alloc] initWithFrame:CGRectMake(8, 250, 150, 50)];
 dropNew.delegate = self;
 dropNew.items = @[@"Apple", @"Grapes", @"Cherry", @"Pineapple", @"Mango", @"Orange"];
@@ -29,4 +29,4 @@ dropNew.itemsFont = [UIFont fontWithName:@"Helvetica-Regular" size:12.0];
 dropNew.titleTextAlignment = NSTextAlignmentCenter;
 dropNew.DirectionDown = NO;
 [self.view addSubview:dropNew];
-'''
+```
