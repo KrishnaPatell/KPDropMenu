@@ -45,8 +45,8 @@ To Use delegate methods, implement `KPDropMenuDelegate` protocol. All these 3 me
 ## Requirements
 iOS 7.0 and later
 
-## Licence
-MIT Licence
+## License
+MIT License
 
 
 
