@@ -26,12 +26,12 @@
 		6B0064881E8245990056D5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B00648A1E8245990056D5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B00648B1E8245990056D5A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B00648D1E8245990056D5A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		6B00648E1E8245990056D5A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		6B00648D1E8245990056D5A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B00648E1E8245990056D5A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B0064931E8245990056D5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B0064961E8245990056D5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B0064981E8245990056D5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B00649E1E8245B10056D5A6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		6B00649E1E8245B10056D5A6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		6B0064A21E82464C0056D5A6 /* KPDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPDropMenu.h; sourceTree = "<group>"; };
 		6B0064A31E82464C0056D5A6 /* KPDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPDropMenu.m; sourceTree = "<group>"; };
 		6B8531E11E862BD700955231 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
@@ -73,8 +73,10 @@
 		6B0064861E8245990056D5A6 /* KPDropMenu */ = {
 			isa = PBXGroup;
 			children = (
-				6B0064A11E8245DE0056D5A6 /* Controller */,
 				6B0064A01E8245D10056D5A6 /* KPDropMenu */,
+				6B00648D1E8245990056D5A6 /* ViewController.h */,
+				6B00648E1E8245990056D5A6 /* ViewController.m */,
+				6B00649E1E8245B10056D5A6 /* ViewController.xib */,
 				6B00648A1E8245990056D5A6 /* AppDelegate.h */,
 				6B00648B1E8245990056D5A6 /* AppDelegate.m */,
 				6B0064931E8245990056D5A6 /* Assets.xcassets */,
@@ -103,16 +105,6 @@
 				6B0064A31E82464C0056D5A6 /* KPDropMenu.m */,
 			);
 			path = KPDropMenu;
-			sourceTree = "<group>";
-		};
-		6B0064A11E8245DE0056D5A6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				6B00648D1E8245990056D5A6 /* ViewController.h */,
-				6B00648E1E8245990056D5A6 /* ViewController.m */,
-				6B00649E1E8245B10056D5A6 /* ViewController.xib */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

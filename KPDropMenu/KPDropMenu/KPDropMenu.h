@@ -10,10 +10,10 @@
 
 @class KPDropMenu;
 
-@protocol KPDropMenuDelegate
+@protocol KPDropMenuDelegate <NSObject>
 
 @optional
--(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIntedex;
+-(void)didSelectItem : (KPDropMenu *) dropMenu atIndex : (int) atIndex;
 -(void)didShow : (KPDropMenu *)dropMenu;
 -(void)didHide : (KPDropMenu *)dropMenu;
 

@@ -120,12 +120,14 @@
     self.layer.borderColor = [[UIColor grayColor] CGColor];
     self.layer.borderWidth = 1;
     
-    label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-    label.textColor = _titleColor;
-    label.text = _title;
-    label.textAlignment = _titleTextAlignment;
-    label.font = font;
-    [self addSubview:label];
+    if(label == nil){
+        label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+        label.textColor = _titleColor;
+        label.text = _title;
+        label.textAlignment = _titleTextAlignment;
+        label.font = font;
+        [self addSubview:label];
+    }
     
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)];
     [self addGestureRecognizer:tapGesture];
@@ -161,7 +163,8 @@
         }];
         
         if(_delegate != nil){
-            [_delegate didShow:self];
+            if([_delegate respondsToSelector:@selector(didShow:)])
+                [_delegate didShow:self];
         }
         
         UIView *view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -195,7 +198,8 @@
         [[self.superview viewWithTag:99121] removeFromSuperview];
         
         if(_delegate != nil){
-            [_delegate didHide:self];
+            if([_delegate respondsToSelector:@selector(didHide:)])
+                [_delegate didHide:self];
         }
         
     }
@@ -248,7 +252,8 @@
     isCollapsed = TRUE;
     [self collapseTableView];
     if(_delegate != nil){
-        [_delegate didSelectItem:self atIndex:SelectedIndex];
+        if([_delegate respondsToSelector:@selector(didSelectItem:atIndex:)])
+            [_delegate didSelectItem:self atIndex:SelectedIndex];
     }
     
 }
